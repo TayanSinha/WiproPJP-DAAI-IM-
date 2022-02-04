@@ -35,10 +35,13 @@ class Employee:
         else:
             addemplist['Employee_Id'] = Empid
             empid = str(Empid)
-            with open('empid.txt', 'a') as f:
-                f.write(empid)
-                f.write('\n')
-                f.close()
+            try:
+                open('empid.txt', 'x')
+            except:
+                with open('empid.txt', 'a') as f:
+                    f.write(empid)
+                    f.write('\n')
+                    f.close()
 
         try:
             Sal = int(input('Enter employee Salary: '))
@@ -65,14 +68,18 @@ class Employee:
 
         print('Employee added sucessfully...')
         # adding employee details to local txt file namely emp.txt
-        file1 = open('emp.txt', 'a')
+        try:
+            open('emp.txt', 'x')
+        except:
+             file1 = open('emp.txt', 'a')
         file1.write(json.dumps(addemplist))
         file1.write('\n')
         file1.close()
+       
 
 # display employee
     def Display_Emp():
-        print('Displaying employee list')
+        print('Displaying employee list:')
         with open('emp.txt', 'r') as f:
             line = f.readline()
             cnt = 1
@@ -84,11 +91,11 @@ class Employee:
 
 # seperate data
     def Seperate_data():
-        print('Seperating data...')
+        print('Seperating data...\n.\n.\n.')
         with open('emp.txt', 'r') as f:
             content_list = [line.rstrip('\n') for line in f]
             f.close()
-            print(len(content_list))
+        
         if os.path.exists("emp_10.txt"):
             os.remove("emp_10.txt")
         if os.path.exists("emp_20.txt"):
@@ -104,17 +111,17 @@ class Employee:
             line = content_list[i]
             if (line[-3:len(line)-1]) == '10':
                 with open('emp_10.txt', 'a') as s:
-                    l = s.write(line)
+                    l = s.write(line+'\n')
 
             elif (line[-3:len(line)-1]) == '20':
                 with open('emp_20.txt', 'a') as s:
-                    l = s.write(line)
+                    l = s.write(line+'\n')
 
             elif (line[-3:len(line)-1]) == '30':
                 with open('emp_30.txt', 'a') as s:
-                    l = s.write(line)
+                    l = s.write(line+'\n')
         
-        print("Data Seperated Sucessfully")
+        print("Data Seperated Sucessfully\n")
 
 # adding menu driven feature to our program
 def menu():
@@ -123,7 +130,7 @@ def menu():
         print('2.  Display_emp')
         print('3.  Seperate_data')
         print('4.  Exit')
-        userinput = int(input('\t'))
+        userinput = int(input('Enter your choice:\t'))
         if userinput == 1:
             Employee.Add_Emp()
         elif userinput == 2:
@@ -133,7 +140,7 @@ def menu():
         elif userinput == 4:
             quit()
         else:
-            print('enter valid input')
+            print('enter valid input\n')
 
 
 # main function

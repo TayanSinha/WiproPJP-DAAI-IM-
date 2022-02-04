@@ -1,1 +1,3 @@
 {"Employee_Name": "AFDS", "Employee_Id": 1234, "Employee_Salary": 15445, "Dept_No": 30}
+{"Employee_Name": "ATAYA", "Employee_Id": 2132, "Employee_Salary": 32444, "Dept_No": 30}
+{"Employee_Name": "TAYAN", "Employee_Id": 34634, "Employee_Salary": 324234, "Dept_No": 30}

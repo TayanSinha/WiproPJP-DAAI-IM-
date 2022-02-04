@@ -1,0 +1,5 @@
+file1= open('a.txt','a')
+text= input("enter something ")
+file1.write(text)
+file1.write('\n')
+file1.close()

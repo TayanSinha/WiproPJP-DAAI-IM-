@@ -7,9 +7,9 @@ class Employee:
     Sal = int()
     Deptno = int()
 
+# add employee
     def Add_Emp():
         addemplist = {}
-        # add employee
         try:
             Ename = input('Enter employee name: ')
             # uppercasing entered name
@@ -68,8 +68,8 @@ class Employee:
 
         file1.close()
 
+# display employee
     def Display_Emp():
-        # display employee
         print('Displaying employee list')
         with open('emp.txt', 'r') as f:
             line = f.readline()
@@ -80,13 +80,15 @@ class Employee:
                 line = f.readline()
                 cnt += 1
 
-    # seperate data
-
+# seperate data
     def Seperate_data():
         print('seperating data..')
         with open('emp.txt', 'r') as f:
-            linestore = f.readlines()
-            
+            content_list = [line.rstrip('\n') for line in f]
+            f.close()
+            print(content_list[1])
+                               
+               
             
         if os.path.exists("emp_10.txt"):
             os.remove("emp_10.txt")
@@ -100,6 +102,7 @@ class Employee:
             l=s.write('')
         with open('emp_30.txt', 'x') as s:
             l=s.write('')
+
 
 
 # adding menu driven feature to our program

@@ -1,6 +1,7 @@
 import json
 import os
 
+
 class Employee:
     Empid = int()
     Ename = ''
@@ -65,7 +66,7 @@ class Employee:
         # adding employee details to local txt file namely emp.txt
         file1 = open('emp.txt', 'a')
         file1.write(json.dumps(addemplist))
-
+        file1.write('\n')
         file1.close()
 
 # display employee
@@ -85,7 +86,7 @@ class Employee:
         print('seperating data..')
         with open('emp.txt', 'r') as f:
             content_list = [line.rstrip('\n') for line in f]
-            f.close()                               
+            f.close()
             print(len(content_list))
         if os.path.exists("emp_10.txt"):
             os.remove("emp_10.txt")
@@ -93,26 +94,24 @@ class Employee:
             os.remove("emp_20.txt")
         if os.path.exists("emp_30.txt"):
             os.remove("emp_30.txt")
-        
-        ln=content_list[1]
-       
-        line=''
+        open('emp_10.txt', 'x')
+        open('emp_20.txt', 'x')
+        open('emp_30.txt', 'x')
+
+        line = ''
         for i in range(len(content_list)):
-            content_list[i]=line
-            # print(line[-3:len(ln)-1])
-            if line[-3:len(ln)-1] == 10:
-                with open('emp_10.txt', 'x') as s:
-                    l=s.write(line)
-            elif line[-3:len(ln)-1] == 20:
-                with open('emp_20.txt', 'x') as s:
-                    l=s.write(line)
-            else:
-                try:
-                    with open('emp_30.txt', 'x') as s:
-                        l=s.write(line)
-                except:
-                    with open('emp_30.txt', 'w') as s:
-                        l=s.write(line)
+            line = content_list[i]
+            if (line[-3:len(line)-1]) == '10':
+                with open('emp_10.txt', 'a') as s:
+                    l = s.write(line)
+
+            elif (line[-3:len(line)-1]) == '20':
+                with open('emp_20.txt', 'a') as s:
+                    l = s.write(line)
+
+            elif (line[-3:len(line)-1]) == '30':
+                with open('emp_30.txt', 'a') as s:
+                    l = s.write(line)
 
 
 # adding menu driven feature to our program

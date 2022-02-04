@@ -2,6 +2,7 @@ import json
 import os
 
 
+
 class Employee:
     Empid = int()
     Ename = ''
@@ -13,7 +14,7 @@ class Employee:
         addemplist = {}
         try:
             Ename = input('Enter employee name: ')
-            # uppercasing entered name
+        # uppercasing entered name
             Ename = Ename.upper()
             addemplist['Employee_Name'] = Ename
         except:
@@ -24,12 +25,12 @@ class Employee:
         with open('empid.txt', 'r') as e:
             readfile = e.read()
             if str(Empid) in readfile:
-                print('Empid must be unique')
+                print('Empid must be unique\n')
                 menu()
         e.close()
         # checking employee id is more than 3 characters or not
         if Empid < 999:
-            print('emp id must be more than 3 characters')
+            print('emp id must be more than 3 characters\n')
             menu()
         else:
             addemplist['Employee_Id'] = Empid
@@ -41,25 +42,25 @@ class Employee:
 
         try:
             Sal = int(input('Enter employee Salary: '))
-            # checking if salary is more than 3k or not
+        # checking if salary is more than 3k or not
             if Sal < 3000:
                 print('Salary should be more than 3k')
             else:
                 addemplist['Employee_Salary'] = Sal
         except:
-            print('enter valid salary')
+            print('enter valid salary\n')
             menu()
 
         try:
             Deptno = int(input('Enter dept number: '))
             if(Deptno != 10 and Deptno != 20 and Deptno != 30):
-                # checking if dep id is in-between 10,20 and 30
-                print('invalid dept number')
+        # checking if dep id is in-between 10,20 and 30
+                print('invalid dept number\n')
                 menu()
             else:
                 addemplist['Dept_No'] = Deptno
         except:
-            print('enter valid dept number')
+            print('enter valid dept number\n')
             menu()
 
         print('Employee added sucessfully...')
@@ -83,7 +84,7 @@ class Employee:
 
 # seperate data
     def Seperate_data():
-        print('seperating data..')
+        print('Seperating data...')
         with open('emp.txt', 'r') as f:
             content_list = [line.rstrip('\n') for line in f]
             f.close()
@@ -112,7 +113,8 @@ class Employee:
             elif (line[-3:len(line)-1]) == '30':
                 with open('emp_30.txt', 'a') as s:
                     l = s.write(line)
-
+        
+        print("Data Seperated Sucessfully")
 
 # adding menu driven feature to our program
 def menu():
@@ -121,7 +123,7 @@ def menu():
         print('2.  Display_emp')
         print('3.  Seperate_data')
         print('4.  Exit')
-        userinput = int(input())
+        userinput = int(input('\t'))
         if userinput == 1:
             Employee.Add_Emp()
         elif userinput == 2:

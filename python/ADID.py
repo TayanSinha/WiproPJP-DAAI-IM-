@@ -85,24 +85,34 @@ class Employee:
         print('seperating data..')
         with open('emp.txt', 'r') as f:
             content_list = [line.rstrip('\n') for line in f]
-            f.close()
-            print(content_list[1])
-                               
-               
-            
+            f.close()                               
+            print(len(content_list))
         if os.path.exists("emp_10.txt"):
             os.remove("emp_10.txt")
         if os.path.exists("emp_20.txt"):
             os.remove("emp_20.txt")
         if os.path.exists("emp_30.txt"):
             os.remove("emp_30.txt")
-        with open('emp_10.txt', 'x') as s:
-            l=s.write('')
-        with open('emp_20.txt', 'x') as s:
-            l=s.write('')
-        with open('emp_30.txt', 'x') as s:
-            l=s.write('')
-
+        
+        ln=content_list[1]
+       
+        line=''
+        for i in range(len(content_list)):
+            content_list[i]=line
+            # print(line[-3:len(ln)-1])
+            if line[-3:len(ln)-1] == 10:
+                with open('emp_10.txt', 'x') as s:
+                    l=s.write(line)
+            elif line[-3:len(ln)-1] == 20:
+                with open('emp_20.txt', 'x') as s:
+                    l=s.write(line)
+            else:
+                try:
+                    with open('emp_30.txt', 'x') as s:
+                        l=s.write(line)
+                except:
+                    with open('emp_30.txt', 'w') as s:
+                        l=s.write(line)
 
 
 # adding menu driven feature to our program

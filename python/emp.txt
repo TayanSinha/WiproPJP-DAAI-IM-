@@ -1,5 +1,0 @@
-{"Employee_Name": "AFDS", "Employee_Id": 1234, "Employee_Salary": 15445, "Dept_No": 30}
-{"Employee_Name": "DASFHSDAF", "Employee_Id": 46454, "Employee_Salary": 45454, "Dept_No": 10}
-{"Employee_Name": "ATAYA", "Employee_Id": 2132, "Employee_Salary": 32444, "Dept_No": 30}
-{"Employee_Name": "TAYAN", "Employee_Id": 34634, "Employee_Salary": 324234, "Dept_No": 30}
-{"Employee_Name": "TAYAN", "Employee_Id": 23434, "Employee_Salary": 32424, "Dept_No": 20}

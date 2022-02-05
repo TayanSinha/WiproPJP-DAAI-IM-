@@ -22,11 +22,15 @@ class Employee:
             print('error while entering employee name')
         Empid = int(input('Enter employee id: '))
         # checking employee id is unique or not
-        with open('empid.txt', 'r') as e:
-            readfile = e.read()
-            if str(Empid) in readfile:
-                print('Empid must be unique\n')
-                menu()
+        try:
+            with open('empid.txt', 'x') as e:
+                readfile= e.read()
+        except:
+            with open('empid.txt', 'r') as e:
+                readfile = e.read()
+        if str(Empid) in readfile:
+            print('Empid must be unique\n')
+            menu()
         e.close()
         # checking employee id is more than 3 characters or not
         if Empid < 999:
@@ -57,7 +61,7 @@ class Employee:
         try:
             Deptno = int(input('Enter dept number: '))
             if(Deptno != 10 and Deptno != 20 and Deptno != 30):
-        # checking if dep id is in-between 10,20 and 30
+                # checking if dep id is in-between 10,20 and 30
                 print('invalid dept number\n')
                 menu()
             else:
@@ -69,13 +73,16 @@ class Employee:
         print('Employee added sucessfully...')
         # adding employee details to local txt file namely emp.txt
         try:
-            open('emp.txt', 'x')
+            file1=open('emp.txt', 'x')
+            file1.write(json.dumps(addemplist))
+            file1.write('\n')
+            file1.close()
         except:
-             file1 = open('emp.txt', 'a')
-        file1.write(json.dumps(addemplist))
-        file1.write('\n')
-        file1.close()
-       
+            file1 = open('emp.txt', 'a')
+            file1.write(json.dumps(addemplist))
+            file1.write('\n')
+            file1.close()
+
 # display employee
     def Display_Emp():
         print('Displaying employee list:')
@@ -88,12 +95,13 @@ class Employee:
                 line = f.readline()
                 cnt += 1
 # seperate data
+
     def Seperate_data():
         print('Seperating data...\n.\n.\n.')
         with open('emp.txt', 'r') as f:
             content_list = [line.rstrip('\n') for line in f]
-            f.close()              
-        #checking if emp_dep files do exist & if exist then deleting the old files and creating new to store value freshly
+            f.close()
+        # checking if emp_dep files do exist & if exist then deleting the old files and creating new to store value freshly
         if os.path.exists("emp_10.txt"):
             os.remove("emp_10.txt")
         if os.path.exists("emp_20.txt"):
@@ -104,7 +112,7 @@ class Employee:
         open('emp_20.txt', 'x')
         open('emp_30.txt', 'x')
 
-        #accessing the employee data from emp.txt and seperating them according to their dep number
+        # accessing the employee data from emp.txt and seperating them according to their dep number
         line = ''
         for i in range(len(content_list)):
             line = content_list[i]
@@ -116,10 +124,12 @@ class Employee:
                     l = s.write(line+'\n')
             elif (line[-3:len(line)-1]) == '30':
                 with open('emp_30.txt', 'a') as s:
-                    l = s.write(line+'\n')        
+                    l = s.write(line+'\n')
         print("Data Seperated Sucessfully\n")
 
 # adding menu driven feature to our program
+
+
 def menu():
     while True:
         print(' EMPLOYEE MANAGEMENT ')
@@ -141,15 +151,16 @@ def menu():
 
 # main function
 
-#adding command line argument feature 
+
+# adding command line argument feature
 try:
     s = argv[1]
     if s == '1':
-            Employee.Add_Emp()
+        Employee.Add_Emp()
     elif s == '2':
-            Employee.Display_Emp()
+        Employee.Display_Emp()
     elif s == '3':
-            Employee.Seperate_data()
+        Employee.Seperate_data()
     else:
         print('nota a valid command line input, try again')
 except:

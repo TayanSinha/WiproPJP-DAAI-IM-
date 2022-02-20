@@ -1,0 +1,48 @@
+1.	SELECT Ename,Sal,Comm FROM emp 
+	ORDER BY 2 desc , 3 desc
+
+2.	SELECT DISTINCT Job FROM emp 
+
+3.	SELECT empno AS "Emp #", ename AS Employee, Job ,hiredate AS "Hire Date"  FROM emp 
+
+4.	SELECT ename|| empno AS Employee  FROM emp 
+
+5.	SELECT ename||','||job||','||hiredate||','||mgr AS THE_OUTPUT  FROM emp 
+
+6.	SELECT ename,job,hiredate  FROM emp 
+	WHERE ename = 'SCOTT' or ename = 'TURNER'
+	ORDER BY hiredate asc
+
+7.	SELECT ename,deptno FROM emp
+	WHERE deptno = 20 or deptno= 30
+	ORDER BY ename asc
+
+8.	SELECT lname AS Employee,sal AS "Monthly Salary" FROM emp
+	WHERE sal >2000 and sal <3000 And deptno = 20 or deptno= 30
+
+9.	select lname,hiredate from emp
+	where substr(hiredate,8,2)=81
+
+10.	ACCEPT amt NUMBER PROMPT 'Ammount:  '
+	select ename,sal from emp
+	where sal>amt
+
+11.	select ename from emp
+	where Job != 'MANAGER'
+
+12.	ACCEPT MId NUMBER PROMPT 'Manager Id:  '
+	select empno,ename,sal,deptno from emp
+	order by MId
+
+13.	ACCEPT MGR CHAR PROMPT 'Manager Id:  '
+	select empno,ename,sal,dept from emp
+	order by MGR
+
+14.	SELECT lname FROM emp
+	WHERE lname like '__A%'
+
+15.	SELECT ename FROM emp
+	WHERE ename like '%A%' AND ename like '%S%'
+
+16.	SELECT ename,Job,Sal FROM emp
+	WHERE Job = 'CLERK' AND sal=800 OR sal=950 OR sal=1300

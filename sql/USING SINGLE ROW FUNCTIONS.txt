@@ -1,0 +1,31 @@
+1.	SELECT CURRENT_DATE FROM dual
+
+2.	SELECT ename,lname,sal,ROUND(sal+sal*15.5/100) AS "New Salary" FROM emp
+
+3.	SELECT ename,sal,ROUND(sal+sal*15.5/100) AS NewSalary,((sal+sal*15.5/100)-sal) AS increase FROM emp
+
+4.	SELECT INITCAP(ename) as employeeName,LENGTH(ename) as namelength FROM emp
+	where SUBSTR(ename,1,1)='J'or SUBSTR(ename,1,1)='A' or SUBSTR(ename,1,1)='M' 
+	order by ename
+
+5.	ACCEPT flttr CHAR PROMPT 'ENTER FIRST LETTER: '
+	SELECT INITCAP(ename) as employeeName,LENGTH(ename) as namelength FROM emp
+	where SUBSTR(ename,1,1)='flttr'
+	order by ename
+
+6.	select ename, MONTHS_BETWEEN(Date (hiredate) ,Date (CURRENT_DATE) ) As Months_Worked from emp
+
+7.	select ename,sal*3 as Dream_Salaries from emp
+
+8.	select ename, LPAD(sal,15,'$') AS Salary from emp
+
+9.	SELECT ENAME,TO_CHAR(HIREDATE,'DAY,"THE "DDSPTH "OF" MONTH ","YYYY') AS HIREDATE,ADD_MONTHS(HIREDATE,6) AS REVIEW
+	FROM EMP;
+
+10.	SELECT ENAME,HIREDATE, TO_CHAR(HIREDATE,'DAY') AS REVIEW
+	FROM EMP
+	order by mod(to_char(hiredate, 'D') + 5, 7)
+
+11.	SELECT ENAME, NVL(TO_CHAR(comm),'No Commission') as Comm FROM EMP
+
+12.	

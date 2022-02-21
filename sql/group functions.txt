@@ -1,0 +1,9 @@
+1.	SELECT max(MAX(sal)) as higheset, min(MIN(sal)) as lowest, AVG(sal) as average
+  FROM emp
+  GROUP BY sal;
+
+2.	SELECT round(max(MAX(sal))) as higheset, round(min(MIN(sal))) as lowest, round(AVG(sal)) as average
+  FROM emp
+  GROUP BY sal;
+
+3.	

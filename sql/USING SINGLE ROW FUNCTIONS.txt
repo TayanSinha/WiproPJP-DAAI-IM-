@@ -28,4 +28,30 @@
 
 11.	SELECT ENAME, NVL(TO_CHAR(comm),'No Commission') as Comm FROM EMP
 
-12.	
+12.	select (substr(ename,1,8))||rpad('*',sal/1000/1,'*') as EMPLOYEES_AND_THERE_SALARIES from emp
+
+13.	SELECT JOB,
+       DECODE (JOB, 'PRESIDENT', 'A', 
+                    'MANAGER', 'B', 
+                    'SALESMAN', 'C', 
+                    'CLERK', 'D',
+                    'NONE') 
+       "GRADE" FROM EMP
+       ORDER BY GRADE
+
+14.	SELECT JOB,
+	  CASE JOB
+	    WHEN 'PRESIDENT'
+	    THEN 'A'
+	    WHEN 'MANAGER'
+	    THEN 'B'
+	    WHEN 'SALESMAN'
+	    THEN 'C'
+	    WHEN 'CLERK'
+	    THEN 'D'
+	    ELSE 'OTHERS'
+	  END GRADE
+	FROM
+	  EMP
+	  ORDER BY GRADE
+

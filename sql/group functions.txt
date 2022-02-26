@@ -1,9 +1,41 @@
 1.	SELECT max(MAX(sal)) as higheset, min(MIN(sal)) as lowest, AVG(sal) as average
-  FROM emp
-  GROUP BY sal;
-
+  	FROM emp
+ 	 GROUP BY sal;
+	
 2.	SELECT round(max(MAX(sal))) as higheset, round(min(MIN(sal))) as lowest, round(AVG(sal)) as average
-  FROM emp
-  GROUP BY sal;
+  	FROM emp
+  	GROUP BY sal;
 
-3.	
+3.	SELECT JOB, MAX(SAL)AS MAX, MIN(SAL)AS MIN,SUM(SAL)AS SUM, ROUND(AVG(SAL)) AS AVG  FROM EMP
+	GROUP BY JOB
+
+4.	SELECT job,COUNT(*) AS JOB
+	FROM emp
+	GROUP BY job;
+
+5.	SELECT job,COUNT(*) AS Manager
+	FROM emp
+	WHERE JOB='MANAGER'
+	GROUP BY job;
+
+6.	SELECT max(sal) as maxsal,min(sal)as minsal,max(sal)-min(sal) as Difference
+	FROM emp
+
+7.	select empno, sal
+	from emp
+	where sal in
+	(select MIN(sal)
+	from emp
+	where empno in
+	(select empno
+	from EMP
+	where JOB != 'manager'
+	 group by Empno
+ 	)
+ 	and
+ 	JOB != 'manager' and MGR is not null
+ 	group by mgr
+ 	)
+	order by Sal asc;
+
+8.	CREATE A QUERY TO DISPLAY THE TOTAL NUMBER OF EMPLOYEES AND, OF THAT TOTAL, THE NUMBER OF WMPLOYEES HIRED IN 1980,1981AND 1982. CREATE APPROPRITE COL HEADING

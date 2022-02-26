@@ -1,0 +1,10 @@
+1.	
+
+2.	select * from emp
+	where sal > (select avg(sal) from emp)
+
+3.	select ename,job from emp
+	where exists ((select * from emp where job = 'MANAGER'))
+4.	select * from emp
+	where sal>(select min(sal) from emp where deptno=10)
+5.

@@ -1,1 +1,6 @@
 declare 
+row emp.empno%type;
+begin
+row := &empno;
+select * from emp where empno=row;
+end;

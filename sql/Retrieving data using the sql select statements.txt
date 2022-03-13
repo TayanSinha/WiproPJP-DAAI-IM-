@@ -1,6 +1,0 @@
-1.	SELECT * FROM DEPT
-
-2.	SELECT * FROM EMP
-
-3.	SELECT Ename,Deptno FROM EMP
-	WHERE Empno = 7788

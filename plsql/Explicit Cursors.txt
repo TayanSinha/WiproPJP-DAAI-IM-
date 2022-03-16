@@ -1,0 +1,48 @@
+1.
+	declare 
+	deleted_rows number;
+	job varchar2(10)  :=  '&job' ; 
+	begin
+	delete 
+	from emp1
+	where job = "job";
+	if sql%notfound Then
+	dbms_output.put_line('no customer found');
+	elsif sql%found then
+	deleted_rows := sql%rowcount;
+	dbms_output.put_line( deleted_rows || ' customer deleted');
+	end if;
+	end;
+
+2.
+	rollback;
+
+3.	
+	declare
+	sal emp.sal%type;
+	cursor c1
+	is
+	select * from (select sal from emp order by sal desc)
+	where rownum<6;
+	begin
+	open c1;
+	loop fetch c1 into  sal;
+	exit when c1%notfound;
+	dbms_output.put_line(sal);
+	end loop;
+	close c1;
+	end;
+
+4.	
+	declare 
+	cursor c1 
+	is 
+	select * from emp where sal >avg(sal) group by sal;
+	rec1 c1%rowtype;
+	begin
+	for rec1 in c1 loop
+	dbms_output.put_line(rec1);
+	end loop;
+	end;
+
+5.	

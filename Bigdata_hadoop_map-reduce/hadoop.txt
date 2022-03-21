@@ -1,0 +1,36 @@
+2.	hadoop version
+3.	hadoop fs -ls /
+4.	hadoop fs -df hdfs:/
+5.	hadoop fs -count hdfs:/
+6.	hadoop fsck - /
+7.	hadoop balancer
+8.	hadoop fs -mkdir /user/training/hadoop
+9.	hadoop fs -put data/sample.txt /user/training/hadoop
+10.	hadoop fs -ls /user/training/hadoop
+11.	hadoop fs -put data/retail /user/training/hadoop
+12.	hadoop fs -ls
+13.	hadoop fs -du -s -h hadoop/retail
+14.	hadoop fs -rm hadoop/retail/customers
+15.	hadoop fs -ls hadoop/retail/customers
+16.	hadoop fs -rm hadoop/retail/*
+17.	hadoop fs -expunge
+18.	hadoop fs -rm -r hadoop/retail
+19.	hadoop fs -ls hadoop
+20.	hadoop fs -copyFromLocal /home/training/purchases.txt hadoop/
+21.	hadoop fs -cat hadoop/purchases.txt
+22.	hadoop fs -copyToLocal hadoop/purchases.txt /home/training/data
+23.	hadoop fs -cp /user/training/*.txt /user/training/hadoop
+24.	hadoop fs -get hadoop/sample.txt /home/training/
+25.	hadoop fs -tail hadoop/purchases.txt
+26.	hadoop fs -ls hadoop/purchases.txt
+	sudo -u hdfs hadoop fs -chmod 600 hadoop/purchases.txt
+27.	hadoop fs -ls hadoop/purchases.txt
+	sudo -u hdfs hadoop fs -chown root:root hadoop/purchases.txt
+28.	hadoop fs -ls hadoop/purchases.txt
+	sudo -u hdfs hadoop fs -chgrp training hadoop/purchases.txt
+29.	hadoop fs -mv hadoop apache_hadoop
+30.	hadoop fs -setrep -w 2 apache_hadoop/sample.txt
+31.	hadoop fs -distcp hdfs://namenodeA/apache_hadoop hdfs://namenodeB/hadoop
+32.	hadoop fs -expunge
+	sudo -u hdfs hdfs dfsadmin -safemode leave
+33.	hadoop fs

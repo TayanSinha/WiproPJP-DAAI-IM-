@@ -1,1 +1,0 @@
-select sum(NVL(sal, 0) + NVL(comm, 0) ) as Netsal from emp where ename = '&ename' group by ename;

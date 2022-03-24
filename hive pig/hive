@@ -57,12 +57,13 @@
 
 6.  alter table p1 drop [IF EXISTS]
     partition pt2 (year='2017');
-
+ _____________________________________________________________________________________
 
     Hive- Built-in Operators and Functions
 
-1.  
+1.  select * from p1 where band = D1 and salary<30000;
 
+2.  
 
 
 

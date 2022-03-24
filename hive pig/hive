@@ -1,0 +1,60 @@
+    Creating and Managing database
+
+1. create database empdata;
+
+2.  use database empdata;  
+    create table employee(empid int, age int, salary float,department string)
+    row format delimited 
+    fields terminated by ',';
+    load data inpath 'hadoop/employees.txt' overwrite into table employees;
+
+3.  use database empdata;  
+    create table departments(deptid int,deptname string,deptloc string)
+    row format delimited
+    fields terminated by ',';
+    load data inpath 'hadoop/deptdata.txt' overwrite into table departments;
+
+4.  create database empdata1;
+
+5.  use database empdata1;
+    create table order(OrderId int, CusrId int, Orderdate date)
+    row format delimited
+    fields terminated by ',';
+    load data inpath 'hadoop/Order.txt' overwrite into table order;
+
+6.  create table order_details(OrderId int, ItemId int, Qty item, Rate int)
+    row format delimited
+    fields terminated by ',';
+    load data inpath 'hadoop/Order_details.txt' overwrite into table order;
+
+7.  create database hdp1;
+
+8.  create database if not exists hdp2;
+
+9.  show databases;
+
+10. drop database if exists hdp1;
+    drop database if exists hdp2;
+ ________________________________________________________________________________
+
+    Partitioning
+
+1.  create table P1(id int, name string, age int)
+    row format delimited
+    fields terminated by ',';
+
+2.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -43,10 +43,25 @@
     row format delimited
     fields terminated by ',';
 
-2.
+2.  ALTER TABLE P1
+    ADD PARTITION pt1 (year=’2012’);
+
+3.  
+
+4.  ALTER TABLE P1
+    ADD PARTITION pt2 (year=’2010’);
+
+5.  ALTER TABLE P1
+    PARTITION pt2 (year=’2010’)
+    rename to partitiom pt2 (year='2017');
+
+6.  alter table p1 drop [IF EXISTS]
+    partition pt2 (year='2017');
 
 
+    Hive- Built-in Operators and Functions
 
+1.  
 
 
 

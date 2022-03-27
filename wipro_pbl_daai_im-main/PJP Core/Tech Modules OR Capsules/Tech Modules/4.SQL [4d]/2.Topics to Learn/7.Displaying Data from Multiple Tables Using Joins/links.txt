@@ -1,0 +1,4 @@
+1. SQL 1999 Joins:Nutral Join: https://talentnext.wipro.com/pbl/DAAI/TM3/Displaying Data.pdf
+4. SQL 1999 Joins:Nutral Join/Using Clause/On Clause: https://talentnext.wipro.com/pbl/DAAI/TM3/Retrieving Records with the USING Clause.pdf
+10. Self Join Non Equi Join: https://talentnext.wipro.com/pbl/DAAI/TM3/self join and non equi join.pdf
+12. Historical Joins: https://talentnext.wipro.com/pbl/DAAI/TM3/HISTORICAL.pdf

@@ -1,0 +1,1 @@
+1. Introduction SQL: https://talentnext.wipro.com/pbl/DAAI/TM3/select intro.pdf

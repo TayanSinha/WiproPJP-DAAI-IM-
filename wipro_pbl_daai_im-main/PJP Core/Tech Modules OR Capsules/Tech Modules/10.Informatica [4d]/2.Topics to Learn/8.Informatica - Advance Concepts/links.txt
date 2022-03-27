@@ -1,0 +1,3 @@
+1. Performance Tuning: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 28.pdf
+12. Debugger: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 29.pdf
+14. Best Practices: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 30.pdf

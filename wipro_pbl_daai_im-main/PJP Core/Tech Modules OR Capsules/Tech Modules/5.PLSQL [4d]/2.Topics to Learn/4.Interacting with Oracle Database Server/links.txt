@@ -1,0 +1,4 @@
+1. Retrieving data with PL/SQL: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 9.pdf
+2. Manipulating data with PL/SQL: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 10.pdf
+7. Merging rows: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 11.pdf
+8. SQL Cursors: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 12.pdf

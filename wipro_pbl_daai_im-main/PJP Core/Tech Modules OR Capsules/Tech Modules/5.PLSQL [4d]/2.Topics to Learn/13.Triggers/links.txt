@@ -1,0 +1,5 @@
+1. Creating Triggers: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 34_1_1.pdf
+2. Creating Triggers: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 34_1_2.pdf
+3. Creating compound Triggers: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 35.pdf
+4. DDL Triggers, Event Based Triggers: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 36.pdf
+

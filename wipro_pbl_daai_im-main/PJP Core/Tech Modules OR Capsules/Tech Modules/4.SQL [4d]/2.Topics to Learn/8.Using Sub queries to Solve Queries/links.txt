@@ -1,0 +1,3 @@
+1. Sub Queries: https://talentnext.wipro.com/pbl/DAAI/TM3/Using Sub queries to Solve Queries.pdf
+3. Single Row Subqueries: https://talentnext.wipro.com/pbl/DAAI/TM3/Single-Row Subqueries.pdf
+5. Multirow Subqueries: https://talentnext.wipro.com/pbl/DAAI/TM3/multirow subquery.pdf

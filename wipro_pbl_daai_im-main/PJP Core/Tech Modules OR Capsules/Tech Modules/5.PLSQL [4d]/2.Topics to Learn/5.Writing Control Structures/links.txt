@@ -1,0 +1,3 @@
+1. Using IF Statements: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 13.pdf
+5. Case Structures: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 14.pdf
+6. Loop Structures: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 15.pdf

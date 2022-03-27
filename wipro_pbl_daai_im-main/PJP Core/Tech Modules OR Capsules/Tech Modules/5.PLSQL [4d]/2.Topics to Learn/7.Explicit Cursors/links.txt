@@ -1,0 +1,4 @@
+2. Using Explicit Cursors: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 16.pdf
+5. Explicit Cursors with parameters-1: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 17.pdf
+7. Cursor with - For Update clause: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 18.pdf
+8. Cursor Variable: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 19.pdf

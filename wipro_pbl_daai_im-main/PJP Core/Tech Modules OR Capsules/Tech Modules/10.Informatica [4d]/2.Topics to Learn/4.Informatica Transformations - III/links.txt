@@ -1,0 +1,7 @@
+1. Sequence Generator Transformation: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 14.pdf
+5. Transformation Language: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 15.pdf
+6. Source Qualifier: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 16.pdf
+12. Update Strategy Transformation: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 17.pdf
+16. Normalizer: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 32.pdf
+18. Reusable Transformation: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 18.pdf
+20. Java Transformation: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 19.pdf

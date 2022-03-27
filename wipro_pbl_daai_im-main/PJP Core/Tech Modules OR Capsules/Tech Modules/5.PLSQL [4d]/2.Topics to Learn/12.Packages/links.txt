@@ -1,0 +1,4 @@
+1. PL/SQL Packages-1: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 30.pdf
+2. Working with packages: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 31.pdf
+3. Overloading subprograms: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 32.pdf
+4. Manage Package data, associate arrays and records: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 33.pdf

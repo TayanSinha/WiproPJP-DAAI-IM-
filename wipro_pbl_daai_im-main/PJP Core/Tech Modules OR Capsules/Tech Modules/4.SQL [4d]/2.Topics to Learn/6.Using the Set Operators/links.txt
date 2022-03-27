@@ -1,0 +1,2 @@
+1. Union/Union All: https://talentnext.wipro.com/pbl/DAAI/TM3/Using the Set Operators union.pdf
+3. Intersect/Minus: https://talentnext.wipro.com/pbl/DAAI/TM3/INTERSECT and minus Operator.pdf

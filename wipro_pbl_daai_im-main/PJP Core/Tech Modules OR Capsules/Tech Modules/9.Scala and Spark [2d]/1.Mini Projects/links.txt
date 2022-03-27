@@ -1,0 +1,2 @@
+1. SCALA: https://talentnext.wipro.com/pbl/DAAI/TM14/Scala Problem Statement.pdf
+2. SPARK: https://talentnext.wipro.com/pbl/DAAI/TM14/Spark Movielens RDD Assignments.pdf

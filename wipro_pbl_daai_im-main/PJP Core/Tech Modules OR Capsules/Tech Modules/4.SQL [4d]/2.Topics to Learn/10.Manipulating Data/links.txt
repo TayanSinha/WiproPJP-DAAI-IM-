@@ -1,0 +1,4 @@
+1. Data Manipulation and INSERT command: https://talentnext.wipro.com/pbl/DAAI/TM3/Data Manipulation Language insert.pdf
+2. Data Manipulation and Update command: https://talentnext.wipro.com/pbl/DAAI/TM3/Changing Data in a Table.pdf
+4. Data Manipulation and Delete command: https://talentnext.wipro.com/pbl/DAAI/TM3/Removing a Row from a Table.pdf
+6. COMMIT/ROLLBACK/SAVEPOINTS: https://talentnext.wipro.com/pbl/DAAI/TM3/Database Transactions.pdf

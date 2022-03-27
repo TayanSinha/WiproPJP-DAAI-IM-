@@ -1,0 +1,6 @@
+1X. Mapping Designer: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 4.pdf
+4X. Transformations- Active Vs Passive: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 5.pdf
+7X. Filter Transformation: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 6.pdf
+10X. Sorter Transformation: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 7.pdf
+13X. Aggregator Transformation: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 8.pdf
+16X. Expression Transformation: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 9.pdf

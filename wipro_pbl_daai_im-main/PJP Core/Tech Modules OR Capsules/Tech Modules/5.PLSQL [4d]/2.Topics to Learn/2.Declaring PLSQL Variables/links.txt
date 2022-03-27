@@ -1,0 +1,1 @@
+1. PLSQL Variable, Identifiers, Datatypes: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 3.pdf

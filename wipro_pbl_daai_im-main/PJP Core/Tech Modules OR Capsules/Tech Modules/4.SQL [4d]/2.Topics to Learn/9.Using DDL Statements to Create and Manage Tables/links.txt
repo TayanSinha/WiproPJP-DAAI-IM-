@@ -1,0 +1,4 @@
+1. Using DDL Statements: https://talentnext.wipro.com/pbl/DAAI/TM3/Using DDL Statements.pdf
+3. Create Table Syntax/Default Option: https://talentnext.wipro.com/pbl/DAAI/TM3/CREATE TABLE example.pdf
+4. Constraint Introduction: https://talentnext.wipro.com/pbl/DAAI/TM3/Including Constraints.pdf
+5. Add/Enable/Disable/Drop Constraints: https://talentnext.wipro.com/pbl/DAAI/TM3/alter and drop.pdf

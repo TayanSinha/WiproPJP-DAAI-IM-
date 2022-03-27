@@ -1,0 +1,7 @@
+2. SQL Function Character Function: https://talentnext.wipro.com/pbl/DAAI/TM3/Using Single-Row Functions.pdf
+3. Numeric Functions: https://talentnext.wipro.com/pbl/DAAI/TM3/Number Functions.pdf
+4. Date Functions: https://talentnext.wipro.com/pbl/DAAI/TM3/Working with Dates.pdf
+5. Other Functions: https://talentnext.wipro.com/pbl/DAAI/TM3/convertion funcitons.pdf
+6. TO_CHAR: https://talentnext.wipro.com/pbl/DAAI/TM3/to_char function.pdf
+7. TO_NUMBER and TO_DATE: https://talentnext.wipro.com/pbl/DAAI/TM3/to_number to_date.pdf
+8. General Function: https://talentnext.wipro.com/pbl/DAAI/TM3/General Functions.pdf

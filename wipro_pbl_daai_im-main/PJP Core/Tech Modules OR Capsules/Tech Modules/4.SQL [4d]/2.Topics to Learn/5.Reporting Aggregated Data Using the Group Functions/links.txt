@@ -1,0 +1,3 @@
+2. Group Functions: https://talentnext.wipro.com/pbl/DAAI/TM3/Reporting Aggregated Data group function.pdf
+3. Group By Clause: https://talentnext.wipro.com/pbl/DAAI/TM3/groupby.pdf
+6. Having Clause: https://talentnext.wipro.com/pbl/DAAI/TM3/Using the HAVING Clause.pdf

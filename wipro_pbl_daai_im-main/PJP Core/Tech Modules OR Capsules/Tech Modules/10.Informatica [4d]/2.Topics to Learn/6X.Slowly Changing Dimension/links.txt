@@ -1,0 +1,4 @@
+1. SCD: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 24.pdf
+9X. SCD-1(Example): https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 33.pdf
+10. SCD-2(Example): https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 34.pdf
+11X. SCD-3(Example): https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 35.pdf

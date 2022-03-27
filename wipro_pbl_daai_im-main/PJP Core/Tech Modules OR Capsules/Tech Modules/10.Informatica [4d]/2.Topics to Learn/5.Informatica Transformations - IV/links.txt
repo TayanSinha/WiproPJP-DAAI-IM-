@@ -1,0 +1,4 @@
+1. Mapplet: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 20.pdf
+3. Stored Procedure Transformation: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 21.pdf
+8. Workflow: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 22.pdf
+10. Worklet: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 23.pdf

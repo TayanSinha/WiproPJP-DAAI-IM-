@@ -1,0 +1,5 @@
+1. Lexical units in PLSQL Block: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 4.pdf
+2. SQL functions: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 5.pdf
+3. Conversions: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 6.pdf
+4. Nested Blocks: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 7.pdf
+5. Sequences: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 8.pdf

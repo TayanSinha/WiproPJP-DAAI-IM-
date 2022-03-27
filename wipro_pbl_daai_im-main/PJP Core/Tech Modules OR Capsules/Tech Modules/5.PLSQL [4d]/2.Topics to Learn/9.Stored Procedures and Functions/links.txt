@@ -1,0 +1,3 @@
+1. Procedures and Functions: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 22.pdf
+2. Introducing Stored Procedures-1: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 23.pdf
+4. Introducing Functions-1: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 24.pdf

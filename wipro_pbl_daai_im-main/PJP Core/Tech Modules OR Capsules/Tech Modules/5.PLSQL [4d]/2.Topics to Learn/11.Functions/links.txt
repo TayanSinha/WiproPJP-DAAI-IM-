@@ -1,0 +1,2 @@
+1. Creating Functions: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 28.pdf
+2. Debugging subprograms: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 29.pdf

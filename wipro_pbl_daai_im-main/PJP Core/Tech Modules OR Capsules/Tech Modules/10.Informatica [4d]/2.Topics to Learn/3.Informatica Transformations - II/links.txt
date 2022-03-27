@@ -1,0 +1,5 @@
+1. Rank Transformation: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 10.pdf
+6. Router Transformation: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 11.pdf
+11. Joiner Transformation: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 12.pdf
+14. Union Transformaton: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 31.pdf
+16. Lookup Transformaton: https://talentnext.wipro.com/pbl/DAAI/TM100/Informatica_Chapter 13.pdf

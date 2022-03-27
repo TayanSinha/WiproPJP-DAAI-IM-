@@ -1,0 +1,2 @@
+1. Where Clause and Comparison Operators: https://talentnext.wipro.com/pbl/DAAI/TM3/Restricting and Sorting Data.pdf
+4. Order By Clause: https://talentnext.wipro.com/pbl/DAAI/TM3/Using the ORDER BY Clause.pdf

@@ -1,0 +1,2 @@
+2. PL/SQL: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 20.pdf
+5. Trapping Exceptions: https://talentnext.wipro.com/pbl/DAAI/TM18/PL_SQL_Chapter 21.pdf

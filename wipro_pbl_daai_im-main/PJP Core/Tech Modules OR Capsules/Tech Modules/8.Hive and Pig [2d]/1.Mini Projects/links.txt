@@ -1,0 +1,2 @@
+1. Pig Mini project: https://talentnext.wipro.com/pbl/DAAI/TM12/Pig Mini Project.pdf
+2. database NYSE in hive: : https://talentnext.wipro.com/pbl/DAAI/TM12/Hive Mini Project.pdf
